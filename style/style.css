@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#F59794;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+}
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    
+  
+}
+.nav-item ul li{
+    margin-right: 30px;
+    list-style: none;
+   
+}
+.nav-item a{
+    text-decoration: none;
+}
+.banner-container{
+    text-align: center;
+    width: 80%;
+    margin: 40px auto 0;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.pri-btn{
+    padding: 10px 20px;
+    background-color: #FF900E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
